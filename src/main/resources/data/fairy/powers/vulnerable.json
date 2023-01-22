@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+	"name": "Lower HP",
+	"attribute": "minecraft:generic.max_health",
+	"operation": "addition",
+	"value": -10
+  },
+  "name": "Fragile",
+  "description": "Your small body is susceptible to more damage."
+}

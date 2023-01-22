@@ -1,0 +1,18 @@
+{
+	"type": "origins:multiple",
+	"name": "Burdensome",
+	"description": "Your weight doesn't allow for effective swimming, and no animals or vehicles of normal stature are capable of bearing your weight.",
+	"mount_no": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "origins:dismount"
+		},
+		"condition": {
+			"type": "origins:riding"
+		}
+	},
+	"water": {
+		"type": "origins:ignore_water"
+	}
+}

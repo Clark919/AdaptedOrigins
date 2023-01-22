@@ -1,0 +1,44 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:block.note_block.bell",
+                "pitch": 1.5,
+                "volume": 0.7
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "tellraw @s {\"text\":\"Emerald Detected!\",\"color\":\"green\"}"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "particle minecraft:composter ~0.1 ~1.2 ~0.1 0 0 0 0 1 normal"
+            }
+        ]
+    },
+    "interval": 40,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:block_in_radius",
+                "block_condition": {
+                    "type": "origins:block",
+                    "block": "minecraft:emerald_ore"
+                },
+                "radius": "5",
+                "shape": "cube",
+                "comparison": ">=",
+                "compare_to": 1
+            },
+            {
+                "type": "origins:power_active",
+                "power": "coppergolem:abilities/radar-toggle"
+            }
+        ]
+    },
+    "hidden": true
+}

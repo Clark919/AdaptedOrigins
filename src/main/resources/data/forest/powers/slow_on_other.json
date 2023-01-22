@@ -1,0 +1,25 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 2,
+	"duration_per_stack": 60,
+	"tick_rate": 40,
+	"effects": [{
+			"effect": "minecraft:weakness",
+			"is_ambient": false,
+			"show_particles": false,
+			"show_icon": false,
+			"amplifier": 0
+		}
+	],
+	"condition": {
+		"type": "origins:on_block",
+			"inverted": true,
+			"block_condition": {
+				"type": "origins:block",
+				"block": "minecraft:grass_block"
+			}
+	},
+	"name": "Chlorosis",
+	"description": "Although you may be empowered on grass, you wilt without it. Weakness will stack when you are not on a dirt or grass type block."
+}

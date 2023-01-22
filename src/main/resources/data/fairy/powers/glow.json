@@ -1,0 +1,36 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:glowing",
+            "inverted": true
+        },
+        "if_action": {
+            "type": "origins:apply_effect",
+            "effect":{
+                "effect": "minecraft:glowing",
+                "show_particles": false,
+                "show_icon": true,
+                "duration": 36000,
+                "amplifier": 1
+            }
+        },
+        "else_action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:glowing"
+        }
+    },
+    "cooldown": 0,
+"key": {
+		"key": "key.loadToolbarActivator",
+		"continuous": false
+},
+    "hud_render": {
+        "should_render": false
+    },
+        
+    "name":"Hey, Listen!",
+    "description":"You can toggle the glowing status effect for yourself."
+}

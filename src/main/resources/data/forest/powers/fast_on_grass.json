@@ -1,0 +1,32 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 4,
+	"duration_per_stack": 40,
+	"tick_rate": 20,
+	"effects": [
+		{
+			"effect": "minecraft:speed",
+			"is_ambient": false,
+			"show_particles": false, 
+			"show_icon": false,
+			"amplifier": 0
+		},
+		{
+			"effect": "minecraft:strength",
+			"is_ambient": false,
+			"show_particles": false,
+			"show_icon": false,
+			"amplifier": 1
+		}
+	],
+	"condition": {
+		"type": "origins:on_block",
+		"block_condition": {
+			"type": "origins:block",
+			"block": "minecraft:grass_block"
+		}
+	},
+	"name": "Bloom",
+	"description": "Grass infuses into you while standing on it. Gain strength and speed on grass and dirt type blocks."
+}

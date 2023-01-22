@@ -1,0 +1,24 @@
+{
+	"powers": [
+		"giantorigin:mount_edit",
+		"giantorigin:slam",
+		"giantorigin:big_edit",
+		"giantorigin:health_edit",
+		"giantorigin:hunger_edit",
+		"giantorigin:ancestry_edit2",
+		"giantorigin:limbs",
+		"giantorigin:higher_fall_damage",
+		"giantorigin:strong_edit",
+		"giantorigin:bow_modded",
+		"giantorigin:sturdy_edit",
+		"giantorigin:bowcross",
+		"giantorigin:item_edit",
+		"giantorigin:swim_edit",
+		"giantorigin:sleep_edit"
+	],
+	"icon": "minecraft:goat_horn",
+	"order": 10,
+	"impact": 3,
+	"name": "Giant",
+	"description": "An ancient race, hunted into near extinction by those who once feared them. Their history is forgotten by time in the wake of countless deaths."
+}

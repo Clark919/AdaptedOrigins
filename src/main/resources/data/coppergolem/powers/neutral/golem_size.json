@@ -1,0 +1,6 @@
+{
+  "type": "extraorigins:modify_size",
+  "scale": 0.55,
+  "name": "Micro Machine",
+  "description": "You are only one block tall, and your maximum health is reduced."
+}

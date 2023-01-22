@@ -1,0 +1,23 @@
+	{
+  
+    "type": "origins:action_on_callback",
+    "entity_action_added": {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:height 0.35 @s",
+        "permission_level": 4
+    },
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "scale reset pehkui:height @s",
+        "permission_level": 4
+    },
+    "entity_action_respawn": {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:height 0.35 @s",
+        "permission_level": 4
+    },
+    "execute_chosen_when_orb": true,
+    "hidden": false,
+    "name": "Tiny",
+    "description": "Fairies are tiny in size (0.75m tall)."
+}

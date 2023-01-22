@@ -1,0 +1,19 @@
+{
+	"type": "origins:multiple",
+	"name": "Overwhelming Might",
+	"description": "Due to your prodigious strength, you deal 50% more damage, apply 50% additional knockback to enemies you hit, and mine 50% faster than average.",
+	"damage": {
+		"type": "origins:modify_damage_dealt",
+		"modifier": {
+			"operation": "multiply_total",
+			"value": 0.50
+		},
+	"knockback_deal": {
+		"type": "origins:action_on_hit",
+		"bientity_action": {
+			"type": "origins:add_velocity",
+			"z": 0.50
+		}
+	}
+}
+}

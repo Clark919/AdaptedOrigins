@@ -1,0 +1,9 @@
+{
+	"type": "origins:model_color",
+	"red" : 0.33,
+	"green" : 0.812,
+	"blue" : 0.965,
+	"alpha" : 0.95,
+	"name": "Luminous",
+	"description": "Your skin emits a radiant blue."
+}

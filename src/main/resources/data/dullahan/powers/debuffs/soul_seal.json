@@ -1,0 +1,28 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:attacker",
+        "entity_condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:enchantment",
+                        "enchantment": "minecraft:vanishing_curse",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    }
+                ]
+            }
+        }
+    },
+    "modifier": {
+        "name": "Weak to cursed items",
+        "operation": "addition",
+        "value": 200
+    },
+    "name": "Cursed",
+    "description": "Any weapon imbued with a curse of vanishing will banish you, ending your hunt."
+}

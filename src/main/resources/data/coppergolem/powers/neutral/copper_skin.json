@@ -1,0 +1,9 @@
+{
+	"type": "origins:model_color",
+	"red" : 0.62,
+	"green" : 0.42,
+	"blue" : 0.3,
+	"alpha" : 1,
+	"name": "Copper Plating",
+	"description": "Your chassis is made out of copper. As a result, you passively have resistance."
+}

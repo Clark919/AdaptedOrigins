@@ -1,0 +1,21 @@
+{
+    	type": "origins:stacking_status_effect",
+	"name": "Ancestry",
+	"description": "Giants will passively regenerate in cold biomes.",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 200,
+    "tick_rate": 20,
+    "effects": {
+        "effect": "minecraft:regeneration",
+        "is_ambient": true,
+	   "duration": 200,
+        "show_particles": true,
+        "show_icon": true
+    },
+    "condition": {
+        		"type": "origins:temperature",
+			"comparison": "<=",
+			"compare_to": 0
+			}
+}

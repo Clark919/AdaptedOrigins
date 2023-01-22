@@ -1,0 +1,18 @@
+
+{
+  "type": "origins:modify_damage_taken",
+  "name": "The Bigger They Are...",
+  "description": "You take 25% more damage from falling.",
+  "modifier": {
+    "name": "More kinetic damage taken",
+    "value": 0.25,
+    "operation": "multiply_base"
+  },
+  "damage_condition": {
+    "type": "origins:or",
+    "conditions": {
+        "type": "origins:name",
+        "name": "fall"
+      }
+  }
+}

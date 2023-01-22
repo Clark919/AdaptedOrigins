@@ -1,0 +1,9 @@
+{
+	"type": "origins:model_color",
+	"red" : 0.2,
+	"green" : 0.2,
+	"blue" : 0.2,
+	"alpha" : 0.7,
+	"name": "Grim Shadow",
+	"description": "Your form has become a dark, corporeal shadow of its former self."
+}

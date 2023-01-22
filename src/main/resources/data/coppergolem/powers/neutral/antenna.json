@@ -1,0 +1,25 @@
+{
+	"type": "origins:action_on_callback",
+	"entity_action_added": { 
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:execute_command",
+			"command": "item replace entity @s armor.head with lightning_rod{display:{Name:'[{\"text\":\"Copper Antenna\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"DIAGNOSTIC CHECK [25-08-22]:\",\"italic\":false,\"color\":\"green\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"Wireless Connection | \",\"italic\":true,\"color\":\"dark_green\"},{\"text\":\"Online\",\"color\":\"green\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false}]','[{\"text\":\"Repair Systems      | \",\"italic\":true,\"color\":\"dark_green\"},{\"text\":\"Enabled\",\"color\":\"green\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false}]','[{\"text\":\"Crafting Recipes    | \",\"italic\":true,\"color\":\"dark_green\"},{\"text\":\"Enabled\",\"color\":\"green\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false}]','[{\"text\":\"Harvesting Modules | \",\"italic\":true,\"color\":\"dark_green\"},{\"text\":\"Enabled\",\"color\":\"green\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"All systems nominal. Copper\",\"italic\":true,\"color\":\"green\"}]','[{\"text\":\"Golem is now operational.\",\"italic\":true,\"color\":\"green\"}]']},Enchantments:[{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1}],HideFlags:1}",
+			"permission_level": 4
+		}
+	]
+	},
+	"entity_action_respawned": { 
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:execute_command",
+			"command": "item replace entity @s armor.head with lightning_rod{display:{Name:'[{\"text\":\"Copper Antenna\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"DIAGNOSTIC CHECK [25-08-22]:\",\"italic\":false,\"color\":\"green\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"Wireless Connection | \",\"italic\":true,\"color\":\"dark_green\"},{\"text\":\"Online\",\"color\":\"green\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false}]','[{\"text\":\"Repair Systems      | \",\"italic\":true,\"color\":\"dark_green\"},{\"text\":\"Enabled\",\"color\":\"green\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false}]','[{\"text\":\"Crafting Recipes    | \",\"italic\":true,\"color\":\"dark_green\"},{\"text\":\"Enabled\",\"color\":\"green\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false}]','[{\"text\":\"Harvesting Modules | \",\"italic\":true,\"color\":\"dark_green\"},{\"text\":\"Enabled\",\"color\":\"green\",\"bold\":true},{\"text\":\"\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"All systems nominal. Copper\",\"italic\":true,\"color\":\"green\"}]','[{\"text\":\"Golem is now operational.\",\"italic\":true,\"color\":\"green\"}]']},Enchantments:[{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1}],HideFlags:1}",
+			"permission_level": 4
+		}
+	]
+	},
+	"execute_chosen_when_orb": true,
+	"hidden": true
+}

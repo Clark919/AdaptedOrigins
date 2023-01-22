@@ -1,0 +1,24 @@
+{
+  "type": "origins:action_on_block_use",
+  "name": "Button Masher",
+  "description": "Your programming gives you an overwhelming urge to press buttons. Every time you press a button, redstone dust will drop.",
+  "cooldown": 20,
+  "block_action": {
+      "type": "origins:execute_command",
+      "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:redstone\",Count:1}}"
+  },
+  "block_condition": {
+      "type": "origins:and",
+      "conditions": [
+      {
+        "type": "origins:in_tag",
+        "tag": "minecraft:buttons"
+      },
+      {
+        "type": "origins:block_state",
+        "property": "powered",
+        "value": "false"
+      }
+      ]
+  }
+}

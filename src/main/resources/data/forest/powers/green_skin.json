@@ -1,0 +1,9 @@
+{
+	"type": "origins:model_color",
+	"red" : 0.149,
+	"green" : 0.8,
+	"blue" : 0,
+	"alpha" : 0.9,
+	"name": "Verdant Veins",
+	"description": "Your connection to nature has made your body green."
+}

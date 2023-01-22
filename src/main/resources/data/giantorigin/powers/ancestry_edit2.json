@@ -1,0 +1,23 @@
+{
+    "name": "Ancestry",
+    "description": "The ancestral ties to cold biomes allow Giants to regenerate there.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 5,
+    "duration_per_stack": 20,
+    "effects": [{
+            "effect": "minecraft:regeneration",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ],
+    "condition": {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:temperature",
+            "comparison": "<=",
+            "compare_to": 0
+        }
+    }
+}

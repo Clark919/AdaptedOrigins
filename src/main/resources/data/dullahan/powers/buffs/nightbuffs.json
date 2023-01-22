@@ -1,0 +1,38 @@
+{
+    "name": "The Pact",
+    "description": "Your contract to hunt \u00A7bsouls \u00A7rempowers you under the light of the moon, but during the day you are weakened, making your thirst for \u00A7bsouls \u00A7rinsatiable.",
+    "loading_priority": 6,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:exposed_to_sky"
+            },
+            {
+                "inverted": true,
+                "type": "origins:exposed_to_sun"
+            }
+        ]
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect": {
+        "effect": "minecraft:strength",
+        "duration": 100,
+        "amplifier": 1,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+    },
+    "effects": [
+        {
+            "effect": "minecraft:speed",
+            "duration": 100,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ]
+}

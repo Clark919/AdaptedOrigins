@@ -1,0 +1,26 @@
+{
+	"type": "origins:multiple",
+	"hunger": {
+		"type": "origins:modify_exhaustion",
+		"modifier": {
+			"operation": "multiply_base",
+			"value": -1
+		}
+	},
+	"starve": {
+		"type": "origins:invulnerability",
+		"damage_condition": {
+			"type": "origins:name",
+			"name": "starve"
+		}
+	},
+	"immunity": {
+		"type": "origins:effect_immunity",
+		"effect": "minecraft:hunger"
+	},
+	"no_regen": {
+		"type": "origins:disable_regen"
+	},
+	"name": "Automaton",
+	"description": "Your body doesn't experience hunger, and you don't benefit from natural regeneration."
+}

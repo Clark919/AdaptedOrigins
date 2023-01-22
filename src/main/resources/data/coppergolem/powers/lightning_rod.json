@@ -1,0 +1,59 @@
+{
+	"type": "origins:multiple",
+	"lightning_strike": {
+		"type": "origins:action_over_time",
+		"interval": 200,
+		"entity_action": {
+			"type": "origins:chance",
+			"action": {
+				"type": "origins:spawn_entity",
+				"entity_type": "lightning_bolt"
+			},
+			"chance": 0.2
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:in_rain"
+			},
+			{
+				"type": "origins:predicate",
+				"predicate": "coppergolem:thundering"
+			},
+			{
+				"type": "origins:resource",
+				"resource": "coppergolem:oxidation_wax",
+				"comparison": "==",
+				"compare_to": 0
+			}
+			]
+		}
+	},
+	"oxidize": {
+		"type": "origins:modify_damage_taken",
+		"damage_condition": {
+			"type": "origins:name",
+			"name": "lightningBolt"
+		},
+		"modifier": {
+			"operation": "multiply_total",
+			"value": -1,
+			"name": "Lightning Rod"
+		},
+		"self_action": {
+			"type": "origins:change_resource",
+			"resource": "coppergolem:oxidation_resource",
+			"change": -1000,
+			"operation": "add"
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "coppergolem:oxidation_wax",
+			"comparison": "==",
+			"compare_to": 0
+		}
+	},
+	"name": "Lightning Rod",
+	"description": "While in thunderstorms, you're much more likely to get struck by lightning. You are immune to lightning, and de-oxidize when struck."
+}

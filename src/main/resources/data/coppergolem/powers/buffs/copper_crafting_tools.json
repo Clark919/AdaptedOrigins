@@ -1,0 +1,219 @@
+{
+	"type": "origins:multiple",
+	"sword": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_sword",
+			"pattern": [
+				"#",
+				"#",
+				"S"
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				},
+				"S": {
+					"item": "minecraft:stick"
+				}
+			},
+			"result": {
+				"item": "minecraft:iron_sword",
+				"count": 1
+			}
+		}
+	},
+	"pickaxe": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_pickaxe",
+			"pattern": [
+				"###",
+				" S ",
+				" S "
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				},
+				"S": {
+					"item": "minecraft:stick"
+				}
+			},
+			"result": {
+				"item": "minecraft:iron_pickaxe",
+				"count": 1
+			}
+		}
+	},
+	"shovel": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_shovel",
+			"pattern": [
+				"#",
+				"S",
+				"S"
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				},
+				"S": {
+					"item": "minecraft:stick"
+				}
+			},
+			"result": {
+				"item": "minecraft:iron_shovel",
+				"count": 1
+			}
+		}
+	},
+	"axe": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_axe",
+			"pattern": [
+				"##",
+				"#S",
+				" S"
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				},
+				"S": {
+					"item": "minecraft:stick"
+				}
+			},
+			"result": {
+				"item": "minecraft:iron_axe",
+				"count": 1
+			}
+		}
+	},
+	"hoe": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_hoe",
+			"pattern": [
+				"##",
+				" S",
+				" S"
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				},
+				"S": {
+					"item": "minecraft:stick"
+				}
+			},
+			"result": {
+				"item": "minecraft:iron_hoe",
+				"count": 1
+			}
+		}
+	},
+	"crossbow": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_crossbow",
+			"pattern": [
+				"S#S",
+				"XTX",
+				" S "
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				},
+				"S": {
+					"item": "minecraft:stick"
+				},
+				"X": {
+					"item": "minecraft:string"
+				},
+				"T": {
+					"item": "minecraft:tripwire_hook"
+				}
+			},
+			"result": {
+				"item": "minecraft:crossbow",
+				"count": 1
+			}
+		}
+	},
+	"shield": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_shield",
+			"pattern": [
+				"P#P",
+				"PPP",
+				" P "
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				},
+				"P": {
+					"tag": "minecraft:planks"
+				}
+			},
+			"result": {
+				"item": "minecraft:shield",
+				"count": 1
+			}
+		}
+	},
+	"bucket": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_bucket",
+			"pattern": [
+				"# #",
+				" # "
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				}
+			},
+			"result": {
+				"item": "minecraft:bucket",
+				"count": 1
+			}
+		}
+	},
+	"shears": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_shears",
+			"pattern": [
+				"# ",
+				" #"
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				}
+			},
+			"result": {
+				"item": "minecraft:shears",
+				"count": 1
+			}
+		}
+	},
+	"name": "Toolsmith",
+	"description": "You can also use this skill to create various metal tools."
+}

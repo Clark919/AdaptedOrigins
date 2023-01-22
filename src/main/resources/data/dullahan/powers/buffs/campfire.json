@@ -1,0 +1,25 @@
+{
+  "type": "origins:action_over_time",
+  "name": "\u00A7b\u00A7nReaper's Requiem",
+  "description": "Standing close to a \u00A7bsoul campfire \u00A7rwill channel \u00A7bsouls \u00A7rinto your body, satiating your hunger.",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:saturation",
+      "duration": 60,
+      "amplifier": 0
+    }
+  },
+  "interval": 50,
+  "condition": {
+    "type": "origins:block_in_radius",
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:soul_campfire"
+    },
+    "radius": "2",
+    "shape": "cube",
+    "comparison": ">=",
+    "compare_to": 1
+  }
+}

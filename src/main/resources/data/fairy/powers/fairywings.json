@@ -1,0 +1,26 @@
+{
+	"type": "origins:action_on_callback",
+	"entity_action_added": { 
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:execute_command",
+			"command": "item replace entity @s armor.chest with minecraft:elytra{display:{Name:'{\"text\":\"Fairy Wings\"}'},Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"minecraft:protection\",lvl:2s}],HideFlags:33,Unbreakable:1b} 1",
+			"permission_level": 4
+		}
+	]
+	},
+	"entity_action_respawned": { 
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:execute_command",
+			"command": "item replace entity @s armor.chest with minecraft:elytra{display:{Name:'{\"text\":\"Fairy Wings\"}'},Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"minecraft:protection\",lvl:2s}],HideFlags:33,Unbreakable:1b} 1",
+			"permission_level": 4
+		}
+	]
+	},
+	"execute_chosen_when_orb": true,
+	"name": "Fairy Wings",
+	"description": "You inherited wings from fairies but their size hinders your ability to wear chestplates."
+}

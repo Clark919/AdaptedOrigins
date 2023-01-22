@@ -1,0 +1,72 @@
+{
+	"type": "origins:active_self",
+	"cooldown": 1,
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:change_resource",
+			"resource": "coppergolem:oxidation_wax",
+			"change": 4000,
+			"operation": "add"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "clear @s minecraft:honeycomb 1"
+		},
+		{
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.honeycomb.wax_on",
+			"volume": 0.5,
+			"pitch": 0.9
+		}
+		]
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+		{
+			"type": "origins:resource",
+			"resource": "coppergolem:oxidation_wax",
+			"comparison": "<=",
+			"compare_to": 8000
+		},
+		{
+			"type": "origins:or",
+			"conditions": [
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:honeycomb"
+					}
+				}
+			},
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "offhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:honeycomb"
+					}
+				}
+			}
+			]
+		}
+		]
+	},
+	"key": {
+		"key": "key.origins.primary_active"
+	},
+	"name": "Galvanise",
+	"description": "Honeycombs allow you to wax yourself, staving off the effects of Oxidation for several minutes.",
+	"badges": [
+	{
+		"sprite": "origins:textures/gui/badge/active.png",
+		"text": "Active ability, use with %s while holding Honeycombs in your hands."
+	}
+	]
+}

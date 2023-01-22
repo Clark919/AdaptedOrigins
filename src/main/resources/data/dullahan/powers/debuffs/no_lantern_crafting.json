@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_crafting",
+    "name": "\u00A7b\u00A7nSoul Snare",
+    "description": "You cannot artificially create soul lanterns. Instead, you will ensnare the \u00A7bsouls \u00A7rof those you kill within a \u00A7blantern you are carrying in your offhand.",
+    "recipe": "minecraft:soul_lantern",
+    "result": {
+        "item": "minecraft:air"
+    }
+}

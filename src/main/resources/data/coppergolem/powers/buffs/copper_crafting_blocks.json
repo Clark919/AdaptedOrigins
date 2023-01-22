@@ -1,0 +1,257 @@
+{
+	"type": "origins:multiple",
+	"hopper": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_hopper",
+			"pattern": [
+				"# #",
+				"#C#",
+				" # "
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				},
+				"C": {
+					"item": "minecraft:chest"
+				}
+			},
+			"result": {
+				"item": "minecraft:hopper",
+				"count": 1
+			}
+		}
+	},
+	"piston": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_piston",
+			"pattern": [
+				"PPP",
+				"C#C",
+				"CRC"
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				},
+				"R": {
+					"item": "minecraft:redstone"
+				},
+				"C": {
+					"item": "minecraft:cobblestone"
+				},
+				"P": {
+					"tag": "minecraft:planks"
+				}
+			},
+			"result": {
+				"item": "minecraft:piston",
+				"count": 1
+			}
+		}
+	},
+	"lantern": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_lantern",
+			"pattern": [
+				" # ",
+				"#C#",
+				" # "
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				},
+				"C": {
+					"tag": "coppergolem:coal"
+				}
+			},
+			"result": {
+				"item": "minecraft:lantern",
+				"count": 8
+			}
+		}
+	},
+	"soul_lantern": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_soul_lantern",
+			"pattern": [
+				"S#S",
+				"#C#",
+				"S#S"
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				},
+				"C": {
+					"tag": "coppergolem:coal"
+				},
+				"S": {
+					"tag": "minecraft:soul_fire_base_blocks"
+				}
+			},
+			"result": {
+				"item": "minecraft:soul_lantern",
+				"count": 8
+			}
+		}
+	},
+	"tripwire": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_tripwire",
+			"pattern": [
+				"#",
+				"S",
+				"P"
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				},
+				"S": {
+					"item": "minecraft:stick"
+				},
+				"P": {
+					"tag": "minecraft:planks"
+				}
+			},
+			"result": {
+				"item": "minecraft:tripwire_hook",
+				"count": 2
+			}
+		}
+	},
+	"redstone_lamp": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_redstone_lamp",
+			"pattern": [
+				" # ",
+				"#R#",
+				" # "
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				},
+				"R": {
+					"item": "minecraft:redstone"
+				}
+			},
+			"result": {
+				"item": "minecraft:redstone_lamp",
+				"count": 1
+			}
+		}
+	},
+	"anvil": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_anvil",
+			"pattern": [
+				"CCC",
+				" # ",
+				"###"
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				},
+				"C": {
+					"item": "minecraft:copper_block"
+				}
+			},
+			"result": {
+				"item": "minecraft:anvil",
+				"count": 1
+			}
+		}
+	},
+	"blast_furnace": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_blast_furnace",
+			"pattern": [
+				"###",
+				"#F#",
+				"SSS"
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				},
+				"F": {
+					"item": "minecraft:furnace"
+				},
+				"S": {
+					"item": "minecraft:smooth_stone"
+				}
+			},
+			"result": {
+				"item": "minecraft:blast_furnace",
+				"count": 1
+			}
+		}
+	},
+	"stonecutter": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_stonecutter",
+			"pattern": [
+				"   ",
+				" # ",
+				"SSS"
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				},
+				"S": {
+					"tag": "coppergolem:stone_ore_replaceables"
+				}
+			},
+			"result": {
+				"item": "minecraft:stonecutter",
+				"count": 1
+			}
+		}
+	},
+	"cauldron": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "coppergolem:copper_cauldron",
+			"pattern": [
+				"# #",
+				"# #",
+				"###"
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:copper_ingot"
+				}
+			},
+			"result": {
+				"item": "minecraft:cauldron",
+				"count": 1
+			}
+		}
+	},
+	"name": "Transmute",
+	"description": "You are able to transmute copper into other metals, allowing you to craft more metal items."
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "adaptedorigins",
+  "version": "${version}",
+
+  "name": "Adapted Origins",
+  "description": "An addon that adds balanced versions of the Giant, Fairy, Forestborn, Dullahan and Copper Golem to the Origins mod.",
+  "authors": [
+    "Clarkster"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/adapted-origins-an-origins-addon",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/adaptedorigins/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.clarkster.adaptedorigins.AdaptedOriginsMod"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": ">=1.19",
+    "java": ">=17",
+    "origins": ">=1.6.2"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

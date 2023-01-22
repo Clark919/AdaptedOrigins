@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "enabled": true,
+    "origins": [
+      "dullahan:dullahan",
+      "forest:forestborn",
+      "coppergolem:coppergolem",
+      "giantorigin:giant",
+      "fairy:fairy"
+    ]
+  }

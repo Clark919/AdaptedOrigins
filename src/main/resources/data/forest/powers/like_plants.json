@@ -1,0 +1,9 @@
+{
+	"type": "origins:prevent_item_use",
+	"item_condition": {
+		"type": "origins:meat",
+		"inverted": true
+	},
+	"name": "Plants Lover",
+	"description": "As a creature who loves plants, it seems unreasonable to hurt them for food. But animals aren't as important as plants... right?"
+}

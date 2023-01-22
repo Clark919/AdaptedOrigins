@@ -1,0 +1,24 @@
+{
+	"powers": [
+		"fairy:fairywings",
+		"fairy:ascend",
+		"fairy:healingmagic",
+		"fairy:glow",
+		"fairy:fireworks",
+		"fairy:coldblooded",
+		"fairy:airbreakspeed",
+		"fairy:vulnerable",
+		"fairy:weak",
+		"fairy:nofalldamage",
+		"fairy:smallheight",
+		"fairy:smallwidth",
+		"fairy:honey",
+		"fairy:luminous",
+		"fairy:aqua_outline"
+	],
+	"icon": "minecraft:glowstone_dust",
+	"order": 10,
+	"impact": 3,
+	"name": "Fairy",
+	"description": "Small mythical creatures that were born to help others."
+}

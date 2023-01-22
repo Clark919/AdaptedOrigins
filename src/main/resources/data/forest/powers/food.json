@@ -1,0 +1,29 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "give @s minecraft:golden_carrot 64"
+			},
+			{
+				"type": "origins:play_sound",
+				"sound": "minecraft:block.amethyst_block.step",
+				"volume": 2.0
+			}
+		]
+	},
+	"cooldown": 6000,
+	"key": {
+		"key": "key.origins.ternary_active",
+		"continuous": false
+	},
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+		"bar_index": 8
+	},
+	"name": "Nature's Support",
+	"description": "Nature will pick the best carrots in the world and bring them to you when needed."
+}

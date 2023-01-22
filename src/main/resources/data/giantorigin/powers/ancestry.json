@@ -1,0 +1,19 @@
+{
+    	"type": "origins:action_over_time",
+	"name": "Ancestry",
+	"description": "Giants will passively regenerate in cold biomes.",
+    	"entity_action": {
+		"type": "origins:apply_effect",
+    		"effect": {
+	 		"effect": "minecraft:regeneration",
+      		"duration": 200,
+      		"amplifier": 0
+    			},
+		"interval": 40,
+    		"condition": {
+        		"type": "origins:temperature",
+			"comparison": "<=",
+			"compare_to": 0
+			}
+    		}
+}

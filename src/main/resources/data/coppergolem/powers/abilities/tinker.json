@@ -1,0 +1,333 @@
+{
+	"type": "origins:multiple",
+	"convert_redstone": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:if_else_list",
+			"actions": [
+			{
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:piston"
+						}
+					}
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+					{
+						"type": "origins:equipped_item_action",
+						"equipment_slot": "mainhand",
+						"action": {
+							"type": "origins:consume",
+							"amount": 1
+						}
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "give @s sticky_piston 1"
+					},
+					{
+						"type": "origins:play_sound",
+						"sound": "minecraft:block.smithing_table.use",
+						"pitch": 1,
+						"volume": 1
+					}
+					]
+				}
+			},
+			{
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:sticky_piston"
+						}
+					}
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+					{
+						"type": "origins:equipped_item_action",
+						"equipment_slot": "mainhand",
+						"action": {
+							"type": "origins:consume",
+							"amount": 1
+						}
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "give @s piston 1"
+					},
+					{
+						"type": "origins:play_sound",
+						"sound": "minecraft:block.smithing_table.use",
+						"pitch": 1,
+						"volume": 1
+					}
+					]
+				}
+			},
+			{
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:repeater"
+						}
+					}
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+					{
+						"type": "origins:equipped_item_action",
+						"equipment_slot": "mainhand",
+						"action": {
+							"type": "origins:consume",
+							"amount": 1
+						}
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "give @s comparator 1"
+					},
+					{
+						"type": "origins:play_sound",
+						"sound": "minecraft:block.smithing_table.use",
+						"pitch": 1,
+						"volume": 1
+					}
+					]
+				}
+			},
+			{
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:comparator"
+						}
+					}
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+					{
+						"type": "origins:equipped_item_action",
+						"equipment_slot": "mainhand",
+						"action": {
+							"type": "origins:consume",
+							"amount": 1
+						}
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "give @s repeater 1"
+					},
+					{
+						"type": "origins:play_sound",
+						"sound": "minecraft:block.smithing_table.use",
+						"pitch": 1,
+						"volume": 1
+					}
+					]
+				}
+			},
+			{
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:dispenser"
+						}
+					}
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+					{
+						"type": "origins:equipped_item_action",
+						"equipment_slot": "mainhand",
+						"action": {
+							"type": "origins:consume",
+							"amount": 1
+						}
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "give @s dropper 1"
+					},
+					{
+						"type": "origins:play_sound",
+						"sound": "minecraft:block.smithing_table.use",
+						"pitch": 1,
+						"volume": 1
+					}
+					]
+				}
+			},
+			{
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:dropper"
+						}
+					}
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+					{
+						"type": "origins:equipped_item_action",
+						"equipment_slot": "mainhand",
+						"action": {
+							"type": "origins:consume",
+							"amount": 1
+						}
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "give @s dispenser 1"
+					},
+					{
+						"type": "origins:play_sound",
+						"sound": "minecraft:block.smithing_table.use",
+						"pitch": 1,
+						"volume": 1
+					}
+					]
+				}
+			},
+			{
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:observer"
+						}
+					}
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+					{
+						"type": "origins:equipped_item_action",
+						"equipment_slot": "mainhand",
+						"action": {
+							"type": "origins:consume",
+							"amount": 1
+						}
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "give @s sculk_sensor 1"
+					},
+					{
+						"type": "origins:play_sound",
+						"sound": "minecraft:block.smithing_table.use",
+						"pitch": 1,
+						"volume": 1
+					}
+					]
+				}
+			},
+			{
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:sculk_sensor"
+						}
+					}
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+					{
+						"type": "origins:equipped_item_action",
+						"equipment_slot": "mainhand",
+						"action": {
+							"type": "origins:consume",
+							"amount": 1
+						}
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "give @s observer 1"
+					},
+					{
+						"type": "origins:play_sound",
+						"sound": "minecraft:block.smithing_table.use",
+						"pitch": 1,
+						"volume": 1
+					}
+					]
+				}
+			}
+			]
+		},
+		"cooldown": 60,
+		"hud_render": {
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+			"bar_index": 14
+		},
+		"key": {
+			"key": "key.origins.secondary_active"
+		},
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"tag": "coppergolem:redstone_consumable"
+				}
+			}
+		}
+	},
+	"name": "Tinkerer",
+	"description": "You can quickly convert a redstone component into its similar counterpart.",
+	"badges": [
+	{
+		"sprite": "origins:textures/gui/badge/active.png",
+		"text": "Active ability, use with %s while holding a valid redstone component in your mainhand."
+	},	
+	{
+		"sprite": "origins:textures/gui/badge/info.png",
+		"text": "Conversion: Piston <=> Sticky Piston"
+	},
+	{
+		"sprite": "origins:textures/gui/badge/info.png",
+		"text": "Conversion: Repeater <=> Comparator"
+	},
+	{
+		"sprite": "origins:textures/gui/badge/info.png",
+		"text": "Conversion: Dispenser <=> Dropper"
+	},
+	{
+		"sprite": "origins:textures/gui/badge/info.png",
+		"text": "Conversion: Observer <=> Sculk Sensor"
+	}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"name": "Death's Arsenal",
+	"description": "You start with items you gathered on your hunts as a rider of the night.",
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "minecraft:crossbow",
+			"tag": "{Damage:375,display:{Name:'[{\"text\":\"Soulsplitter\",\"italic\":false,\"color\":\"aqua\"}]',Lore:['[{\"text\":\"A weapon familiar to you from a previous life.\"}]','[{\"text\":\"The stock is warped and worn,\",\"italic\":true}]','[{\"text\":\"with the carvings previously\",\"italic\":true}]','[{\"text\":\"adorning it no longer discernable.\",\"italic\":true}]']}}",
+			"amount": 1
+        },
+	  {
+            "item": "minecraft:arrow",
+            "amount": 16
+        },
+		{
+			"item": "minecraft:lantern",
+			"tag": "{display:{Lore:['[{\"text\":\"Hold these lanterns in your offhand and\"}]','[{\"text\":\"hunt foes to gather \",\"italic\":true},{\"text\":\"souls.\",\"color\":\"aqua\"}]']}}",
+			"slot": 40,
+			"amount": 10
+		},
+		{
+			"item": "minecraft:bone",
+			"amount": 16
+		},
+		{
+			"item": "minecraft:soul_sand",
+			"tag": "{display:{Lore:['[{\"text\":\"Use this sand to craft a place of respite.\"}]']}}",
+			"amount": 3
+		}
+    ]
+}

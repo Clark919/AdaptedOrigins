@@ -1,0 +1,38 @@
+{
+	"type": "origins:multiple",
+	"particle1": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+	    "type": "origins:and",
+	    "actions": [
+	      {
+	        "type": "origins:execute_command",
+	        "command": "particle minecraft:soul_fire_flame .6 0 1 0.75 ~ ~0.9 ~ 0.25 0.4 0.25 0.01 1 normal"
+	      },
+	      {
+	        "type": "origins:execute_command",
+	        "command": "particle minecraft:soul_fire_flame .4 0.3 1 0.75 ~ ~0.9 ~ 0.25 0.4 0.25 0.01 1 normal"
+	      },
+	      {
+	        "type": "origins:execute_command",
+	        "command": "particle minecraft:soul_fire_flame .5 0.3 0.8 0.75 ~ ~0.9 ~ 0.25 0.4 0.25 0.01 1 normal"
+	      },
+				{
+					"type": "origins:execute_command",
+					"command": "particle minecraft:soul_fire_flame 1 0.3 1 0.75 ~ ~0.9 ~ 0.25 0.4 0.25 0.01 1 normal"
+				}
+	    ]
+	  },
+	"interval": 3
+	},
+	"particle2": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "particle minecraft:sculk_soul ~ ~0.9 ~ 0.25 0.4 0.25 0.01 1 normal"
+		},
+	"interval": 10
+	},
+
+	"hidden": true
+}

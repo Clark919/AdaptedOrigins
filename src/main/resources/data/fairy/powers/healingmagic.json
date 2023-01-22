@@ -1,0 +1,24 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+			"type": "origins:spawn_effect_cloud",
+			"radius": 7.0,
+			"effect": {
+				"effect": "minecraft:regeneration",
+				"duration": 100,
+				"amplifier": 2
+				}
+		},
+	"cooldown": 1200,
+	"key": {
+		"key": "key.origins.secondary_active",
+		"continuous": false
+	},
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 9
+	},
+	"name": "Healing Magic",
+	"description": "Summons a circle of healing around you that gives regeneration to you and other entities."
+}

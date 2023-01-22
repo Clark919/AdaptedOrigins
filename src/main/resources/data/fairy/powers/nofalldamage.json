@@ -1,0 +1,7 @@
+{
+    "type": "origins:modify_falling",
+    "velocity": 0.03,
+    "take_fall_damage": false,
+    "name": "Graceful Descent",
+    "description": "You use your wings to fall slower and do not take fall damage."
+}

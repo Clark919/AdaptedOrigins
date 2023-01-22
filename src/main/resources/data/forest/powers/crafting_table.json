@@ -1,0 +1,12 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:crafting_table"
+	},
+	"key": {
+		"key": "key.origins.quaternary_active",
+		"continuous": false
+	},
+	"name": "Conservationist",
+	"description": "In order to save wood, you have developed a way to make a portable crafting table."
+}

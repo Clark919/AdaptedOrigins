@@ -1,0 +1,10 @@
+{
+  "type": "origins:toggle",
+  "active_by_default": false,
+  "name": "Wood Walker",
+  "description": "As a child of an ancient tree, wood of all types allows you to pass unhindered.",
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  }
+}

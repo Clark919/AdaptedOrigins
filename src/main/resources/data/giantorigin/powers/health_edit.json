@@ -1,0 +1,10 @@
+{
+	"type": "origins:attribute",
+	"name": "Towering Constitution",
+	"description": "Your breadth of form renders you sturdier than most, granting you greater HP.",
+	"modifier": {
+		"attribute": "minecraft:generic.max_health",
+		"value": 20,
+		"operation": "addition"
+	}
+}

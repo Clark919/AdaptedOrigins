@@ -1,0 +1,21 @@
+{
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:arrow",
+	"cooldown": 400,
+	"count": 1,
+	"speed": 3,
+	"divergence": 1,
+	"sound": "minecraft:entity.skeleton.shoot",
+	"tag": "{pickup:0b,CustomPotionEffects:[{Id:19,Duration:200,Amplifier:1b}]}",
+	"key": {
+		"key": "key.origins.ternary_active",
+		"continuous": false
+	},
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+		"bar_index": 2
+	},
+	"name": "Poison Dart",
+	"description": "You are able to throw a dart coated in a natural poison."
+}

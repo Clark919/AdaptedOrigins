@@ -1,0 +1,21 @@
+{
+    "type": "origins:toggle",
+    "key": {
+      "key": "key.loadToolbarActivator",
+      "continuous": false
+    },
+    "active_by_default": false,
+    "retain_state": false,
+    "name": "Local Area Networking",
+    "description": "You have modified an antenna to fit to your head permanently to recieve radio signals.",
+    "badges": [
+        {
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "Active ability, toggle with %s. When standing within 5 blocks of unwaxed copper, emerald or diamond ore and blocks, you will beep. You oxidise faster while this is active."
+        },
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "You cannot remove the antenna from your head."
+        }
+    ]
+}

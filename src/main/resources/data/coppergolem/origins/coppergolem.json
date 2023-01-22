@@ -1,0 +1,30 @@
+{
+    "powers": [
+        "coppergolem:abilities/copper_regen",
+        "coppergolem:oxidation",
+        "coppergolem:wax",
+        "coppergolem:lightning_rod",
+	    "coppergolem:neutral/copper_skin",
+        "coppergolem:neutral/antenna",
+        "coppergolem:abilities/ore-test",
+        "coppergolem:abilities/radar-toggle",
+        "coppergolem:abilities/radar-overlay",
+        "coppergolem:neutral/golem_size",
+        "coppergolem:buffs/no_stomach",
+        "coppergolem:buffs/plating",
+        "coppergolem:buffs/button_press",
+        "coppergolem:abilities/tinker",
+	    "coppergolem:buffs/copper_crafting_blocks",
+	    "coppergolem:buffs/copper_crafting_tools",
+        "coppergolem:debuffs/water_vulnerability",
+        "coppergolem:debuffs/sink",
+        "coppergolem:debuffs/health"
+    ],
+    "icon": {
+        "item": "minecraft:copper_ingot"
+    },
+    "order": 20,
+    "impact": 2,
+    "name": "Copper Golem",
+    "description": "The Copper Golems are a curious automaton, designed to improve the lives of others. Since they were initially prototyped, they have gained a greater knowledge of redstone components and ways to utilise them."
+}

@@ -1,0 +1,37 @@
+{
+    "type": "origins:multiple",
+    "saturation": {
+        "type": "origins:action_on_item_use",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:honey_bottle"
+            }
+        },
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 6,
+            "saturation": 0.6
+        }
+    },
+    "absorption": {
+        "type": "origins:action_on_item_use",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:honey_bottle"
+            }
+        },
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:absorption",
+                "duration": 600,
+                "amplifier": 0
+            }
+        }
+    },
+    "hidden": false,
+    "name": "Nectar Lover",
+    "description": "You gain more saturation from honey bottles. Drinking a honey bottle will grant you two temporary hearts for 30s."
+}

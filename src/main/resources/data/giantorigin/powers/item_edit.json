@@ -1,0 +1,27 @@
+{
+	"type": "origins:multiple",
+	"name": "Earthbound",
+	"description": "A giant's weight causes them to be unaffected by levitation, but also incapable of gliding with an elytra.",
+	"elytra_no_prevent": {
+		"type": "origins:prevent_item_use",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "elytra"
+			}
+		}
+	},
+	"elytra_no_resrict": {
+		"type": "origins:restrict_armor",
+		"chest": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "elytra"
+			}
+		}
+	},
+	"levitation_no": {
+		"type": "origins:effect_immunity",
+		"effect": "levitation"
+	}
+}

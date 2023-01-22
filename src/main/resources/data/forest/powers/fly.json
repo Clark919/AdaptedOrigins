@@ -1,0 +1,35 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effects" : [
+			{
+				"effect": "minecraft:levitation",
+				"duration": 100,
+				"is_ambient": false,
+				"show_particles": false,
+				"amplifier": 2,
+				"show_icon": false
+			},
+			{
+				"effect": "minecraft:slow_falling",
+				"duration": 200,
+				"is_ambient": false,
+				"show_particles": false,
+				"show_icon": false
+			}
+		]
+	},
+	"cooldown": 600,
+	"key": {
+		"key": "key.origins.secondary_active",
+		"continuous": false
+	},
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+		"bar_index": 23
+	},
+	"name": "Float",
+	"description": "Imbue your body with a gale of wind and float temporarily."
+}

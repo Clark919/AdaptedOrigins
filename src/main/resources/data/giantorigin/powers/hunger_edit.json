@@ -1,0 +1,9 @@
+{
+	"type": "origins:modify_exhaustion",
+	"name": "A Beastly Appetite",
+	"description": "Your massive body drains a huge amount of energy, causing your hunger to drain 50% faster.",
+	"modifier": {
+		"value": 0.5,
+		"operation": "multiply_base"
+	}
+}
