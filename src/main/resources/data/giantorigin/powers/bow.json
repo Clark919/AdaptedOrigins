@@ -1,82 +1,118 @@
 {
 	"type": "origins:action_over_time",
-	"name": "Excessive Power",
-	"description": "Bows and crossbows break after use",
+	"name": "Excessive Force",
+	"description": "Bows and crossbows you use are incapable of withstanding your might, and are destroyed upon firing.",
 	"interval": 2,
 	"condition": {
 		"type": "origins:using_item",
 		"item_condition": {
 			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "bow"
-			}
+			"ingredient": [
+				{
+					"item": "bow"
+				},
+				{
+					"item": "botania:livingwood_bow"
+				},
+				{
+					"item": "botania:crystal_bow"
+				},
+				{
+					"item": "dragonloot:dragon_bow"
+				},
+				{
+					"item": "medievalweapons:long_bow"
+				},
+				{
+					"item": "medievalweapons:recurve_bow"
+				},
+				{
+					"item": "spirit:soul_steel_bow"
+				},
+				{
+					"item": "twilightforest:triple_bow"
+				},
+				{
+					"item": "twilightforest:seeker_bow"
+				},
+				{
+					"item": "twilightforest:ender_bow"
+				},
+				{
+					"item": "twilightforest:ice_bow"
+				}
+			]
 		}
 	},
 	"falling_action": {
 		"type": "origins:if_else_list",
 		"actions": [
-		{
-			"condition": {
-				"type": "origins:equipped_item",
-				"equipment_slot": "mainhand",
-				"item_condition": {
-					"type": "origins:ingredient",
-					"ingredient": {
-						"item": "bow"
-					}
-				}
-			},
-			"action": {
-				"type": "origins:and",
-					"actions": [
-				{
-					"type": "origins:equipped_item_action",
+			{
+				"condition": {
+					"type": "origins:equipped_item",
 					"equipment_slot": "mainhand",
-					"action": {
-						"type": "origins:consume",
-						"amount": 1
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": [
+							{
+								"item": "bow"
+							}
+						]
 					}
 				},
-				{
-					"type": "origins:play_sound",
-					"sound": "entity.item.break",
-					"volume": 0.8,
-					"pitch": 1
-				}
-				]
-			}
-		},
-		{
-			"condition": {
-				"type": "origins:equipped_item",
-				"equipment_slot": "offhand",
-				"item_condition": {
-					"type": "origins:ingredient",
-					"ingredient": {
-						"item": "bow"
-					}
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:equipped_item_action",
+							"equipment_slot": "mainhand",
+							"action": {
+								"type": "origins:consume",
+								"amount": 1
+							}
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.item.break",
+							"volume": 0.8,
+							"pitch": 1
+						}
+					]
 				}
 			},
-			"action": {
-				"type": "origins:and",
-				"actions": [
-				{
-					"type": "origins:equipped_item_action",
+			{
+				"condition": {
+					"type": "origins:equipped_item",
 					"equipment_slot": "offhand",
-					"action": {
-						"type": "origins:consume",
-						"amount": 1
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": [
+							{
+								"item": "bow"
+							}
+						]
 					}
 				},
-				{
-					"type": "origins:play_sound",
-					"sound": "entity.item.break",
-					"volume": 0.8,
-					"pitch": 1
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:equipped_item_action",
+							"equipment_slot": "offhand",
+							"action": {
+								"type": "origins:consume",
+								"amount": 1
+							}
+						},
+						{
+							"type": "origins:play_sound",
+							"sound": "entity.item.break",
+							"volume": 0.8,
+							"pitch": 1
+						}
+					]
 				}
-				]
 			}
-		}
 		]
 	}
 }
