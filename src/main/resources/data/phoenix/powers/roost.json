@@ -1,0 +1,29 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "phoenix:rebirth_sunlight",
+    "change": 2
+  },
+  "interval": 20,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:sneaking"
+      },
+      {
+        "type": "origins:moving",
+        "inverted": true
+      },
+      {
+        "type": "origins:resource",
+        "resource": "phoenix:rebirth_state",
+        "comparison": ">=",
+        "compare_to": 1
+      }
+    ]
+  },
+  "name": "Roost",
+  "description": "While sneaking and not moving, you will gain progress towards Rejuvenating in reborn form, regardless of there being sunlight or not."
+}

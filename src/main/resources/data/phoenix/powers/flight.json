@@ -10,15 +10,6 @@
       "compare_to": 0
     }
   },
-  "custom_wings": {
-    "type": "origins:simple",
-    "condition": {
-      "type": "origins:resource",
-      "resource": "phoenix:rebirth_state",
-      "comparison": "<=",
-      "compare_to": 0
-    }
-  },
   "flame_particle": {
     "type": "origins:particle",
     "particle": "minecraft:flame",
@@ -31,5 +22,5 @@
     }
   },
   "name": "Flight",
-  "description": "You have fiery wings. Only available in Normal Form."
+  "description": "You have wings. Only available in Normal Form."
 }

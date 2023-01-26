@@ -21,6 +21,17 @@
           "command": "playsound adaptedorigins:phoenix_call neutral @s ~ ~ ~ 1 1"
         },
         {
+          "type": "origins:change_resource",
+          "resource": "phoenix:rebirth_sunlight",
+          "change": 216,
+          "condition": {
+            "type": "origins:resource",
+            "resource": "phoenix:rebirth_state",
+            "comparison": ">=",
+            "compare_to": 1
+          }
+        },
+        {
           "type": "origins:trigger_cooldown",
           "power": "phoenix:radiant_call_cooldown"
         }
@@ -45,5 +56,5 @@
     }
   },
   "name": "Radiant Call",
-  "description": "Fully heals every player and mob within a 12 block radius. Triggers automatically every 2 minutes."
+  "description": "Fully heals every player and mob within a 12 block radius. Triggers automatically every 2 minutes. If you are in Reborn form, regain some progress towards Rejuvenation when this triggers."
 }

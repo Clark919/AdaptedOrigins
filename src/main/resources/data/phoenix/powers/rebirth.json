@@ -8,6 +8,97 @@
       "should_render": false
     }
   },
+  "sunlight": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1440,
+    "start_value": 0,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+      "bar_index": "14",
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:resource",
+            "resource": "*:*_sunlight",
+            "comparison": ">",
+            "compare_to": 0
+          },
+          {
+            "type": "origins:resource",
+            "resource": "*:*_sunlight",
+            "comparison": "<",
+            "compare_to": 1440
+          },
+          {
+            "type": "origins:resource",
+            "resource": "*:*_state",
+            "comparison": ">=",
+            "compare_to": 1
+          }
+        ]
+      }
+    }
+  },
+  "increment_sunlight": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_sunlight",
+      "change": 1
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:exposed_to_sun"
+        },
+        {
+          "type": "origins:resource",
+          "resource": "*:*_state",
+          "comparison": ">=",
+          "compare_to": 1
+        }
+      ]
+    }
+  },
+  "decrement_sunlight": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_sunlight",
+      "change": -1
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:in_rain"
+            },
+            {
+              "type": "origins:fluid_height",
+              "fluid": "minecraft:water",
+              "comparison": ">",
+              "compare_to": 0
+            }
+          ]
+        },
+        {
+          "type": "origins:resource",
+          "resource": "*:*_state",
+          "comparison": ">=",
+          "compare_to": 1
+        }
+      ]
+    }
+  },
   "change_health": {
     "type": "origins:action_on_callback",
     "entity_action_chosen": {
@@ -104,5 +195,5 @@
     }
   },
   "name": "Rebirth",
-  "description": "In your Normal Form, you have 5 hearts and can use Flight and Ascent. If you lose all 5 hearts, you shrink to your Reborn Form. This form is 1 block tall, can use Glide, and has only 3 hearts. You return to Normal Form upon Rejuvenation or death."
+  "description": "In your Normal Form, you have more health and can use Flight and Ascent. If you lose of your health, you shrink to your Reborn Form. This form is 1 block tall, can use Glide, and has low health. You return to Normal Form upon Rejuvenation or death."
 }

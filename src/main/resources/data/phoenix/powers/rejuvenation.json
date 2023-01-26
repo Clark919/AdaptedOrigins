@@ -10,10 +10,10 @@
           "type": "origins:and",
           "conditions": [
             {
-              "type": "origins:command",
-              "command": "time query daytime",
-              "comparison": "<",
-              "compare_to": "30"
+              "type": "origins:resource",
+              "resource": "phoenix:rebirth_sunlight",
+              "comparison": "==",
+              "compare_to": 1440
             },
             {
               "type": "origins:resource",
@@ -34,6 +34,15 @@
             {
               "type": "origins:heal",
               "amount": 6
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "playsound adaptedorigins:phoenix_call neutral @s ~ ~ ~ 1 1"
+            },
+            {
+              "type": "origins:change_resource",
+              "resource": "phoenix:rebirth_sunlight",
+              "change": -1440
             }
           ]
         }
@@ -41,5 +50,5 @@
     ]
   },
   "name": "Rejuvenation",
-  "description": "At sunrise, if you were in your Reborn Form, you will return to Normal Form."
+  "description": "If you were in your Reborn Form, you will slowly return to Normal Form provided you are directly under the sun. Standing in the rain or in water will reduce progress towards Rejuvenating."
 }
