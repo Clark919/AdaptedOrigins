@@ -1,5 +1,7 @@
 {
     "type": "origins:multiple",
+    "name": "Fireball",
+    "description": "Launch a fireball that deals damage and ignites the first entity it hits.",
     "fireball":
     {
         "type": "origins:fire_projectile",
