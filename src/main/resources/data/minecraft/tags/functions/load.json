@@ -1,1 +1,7 @@
-{"replace": false,"values": ["jacko:load"]}
+{
+  "replace": false,
+  "values": [
+    "jacko:load",
+    "phoenix:init"
+  ]
+}
