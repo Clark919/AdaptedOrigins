@@ -13,6 +13,19 @@
       "color": "aqua"
     }
   },
+  "soul_lantern": {
+    "type": "origins:tooltip",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:lantern"
+      }
+    },
+    "text": {
+      "text": "Consume the soul within for sustenance.",
+      "color": "aqua"
+    }
+  },
   "soul_campfire": {
     "type": "origins:tooltip",
     "item_condition": {
