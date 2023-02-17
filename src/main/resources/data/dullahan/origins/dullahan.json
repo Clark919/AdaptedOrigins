@@ -16,7 +16,8 @@
         "dullahan:buffs/shadow",
 	    "dullahan:buffs/particles",
         "dullahan:buffs/kit",
-        "dullahan:buffs/no_food"
+        "dullahan:buffs/no_food",
+        "dullahan:buffs/tooltips"
     ],
     "icon": {
         "item": "minecraft:soul_lantern"

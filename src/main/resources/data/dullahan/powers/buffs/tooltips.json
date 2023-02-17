@@ -1,0 +1,30 @@
+{
+  "type": "origins:multiple",
+  "lantern": {
+    "type": "origins:tooltip",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:lantern"
+      }
+    },
+    "text": {
+      "text": "Hold in your offhand to trap souls for consumption.",
+      "color": "aqua"
+    }
+  },
+  "soul_campfire": {
+    "type": "origins:tooltip",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:soul_campfire"
+      }
+    },
+    "text": {
+      "text": "A place of respite for the Dullahan.",
+      "color": "aqua"
+    }
+  },
+  "hidden": true
+}

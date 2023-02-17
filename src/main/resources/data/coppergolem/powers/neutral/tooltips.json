@@ -1,0 +1,134 @@
+{
+  "type": "origins:multiple",
+  "copper_ingot": {
+    "type": "origins:tooltip",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "text": {
+      "text": "Can be used to repair your body.",
+      "color": "green"
+    }
+  },
+  "honeycomb": {
+    "type": "origins:tooltip",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:honeycomb"
+      }
+    },
+    "text": {
+      "text": "Can be used to prevent the effects of Oxidation temporarily.",
+      "color": "green"
+    }
+  },
+  "observer": {
+    "type": "origins:tooltip",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:observer"
+      }
+    },
+    "text": {
+      "text": "Can be Tinkered with.",
+      "color": "green"
+    }
+  },
+  "sculk_sensor": {
+    "type": "origins:tooltip",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:sculk_sensor"
+      }
+    },
+    "text": {
+      "text": "Can be Tinkered with.",
+      "color": "green"
+    }
+  },
+  "repeater": {
+    "type": "origins:tooltip",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:repeater"
+      }
+    },
+    "text": {
+      "text": "Can be Tinkered with.",
+      "color": "green"
+    }
+  },
+  "comparator": {
+    "type": "origins:tooltip",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:comparator"
+      }
+    },
+    "text": {
+      "text": "Can be Tinkered with.",
+      "color": "green"
+    }
+  },
+  "piston": {
+    "type": "origins:tooltip",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:piston"
+      }
+    },
+    "text": {
+      "text": "Can be Tinkered with.",
+      "color": "green"
+    }
+  },
+  "sticky_piston": {
+    "type": "origins:tooltip",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:sticky_piston"
+      }
+    },
+    "text": {
+      "text": "Can be Tinkered with.",
+      "color": "green"
+    }
+  },
+  "dispenser": {
+    "type": "origins:tooltip",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:dispenser"
+      }
+    },
+    "text": {
+      "text": "Can be Tinkered with.",
+      "color": "green"
+    }
+  },
+  "dropper": {
+    "type": "origins:tooltip",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:dropper"
+      }
+    },
+    "text": {
+      "text": "Can be Tinkered with.",
+      "color": "green"
+    }
+  },
+  "hidden": true
+}

@@ -18,7 +18,8 @@
 	    "coppergolem:buffs/copper_crafting_tools",
         "coppergolem:debuffs/water_vulnerability",
         "coppergolem:debuffs/sink",
-        "coppergolem:debuffs/health"
+        "coppergolem:debuffs/health",
+        "coppergolem:neutral/tooltips"
     ],
     "icon": {
         "item": "minecraft:copper_ingot"
