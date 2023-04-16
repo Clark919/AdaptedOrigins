@@ -15,7 +15,7 @@
 		"forest:more_damage_diamond",
 		"forest:more_damage_netherite",
 		"forest:fast_on_dirt",
-		"forest:like_plants"
+		"origins:carnivore"
 	],
 	"icon": "minecraft:oak_log",
 	"order": 10,
